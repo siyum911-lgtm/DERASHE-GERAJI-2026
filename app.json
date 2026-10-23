@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "DERASHE GERAJI",
+    "slug": "derashe-geraji-mobile",
+    "scheme": "derashegeraji",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.derashegeraji.mobile"
+    },
+    "android": {
+      "package": "com.derashegeraji.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
